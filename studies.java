@@ -7,9 +7,15 @@ public class Studies {
         for(int i = 0; i < str.length(); i++){
             System.out.println(str.charAt(i));
         }
+        array([]);
     }
     
   
-
+    static void array(){
+        String[] array = {"SS", "EE"};
+        for (String e : array){
+            System.out.println(e);
+        }
+    }
 
 }
